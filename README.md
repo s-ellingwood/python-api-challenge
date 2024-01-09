@@ -14,6 +14,8 @@ All used data in this project is provided by UNC Chapel Hill’s Data Analytics 
 
 ### Files:
 The WeatherPy folder contains all the files for this challenge project.
-- The wp_output_data folder contains images created in WeatherPy.ipynb of figures created to visualize weather data and trends (Fig1.png, Fig2.png, Fig3.png, Fig4.png). It also contains the cities.csv file, also created in WeatherPy.ipynb, which contains all of the information pulled from openweatherapi for the each city found for this dataset.
+- The wp_output_data folder contains:
+    - Fig1.png, Fig2.png, Fig3.png, Fig4.png - images of the scatterplots created in WeatherPy.ipynb to visualize weather data and trends.
+    - cities.csv file - also created in WeatherPy.ipynb, it contains all of the information pulled from openweatherapi for the each city found for this dataset.
 - WeatherPy.ipynb - contains all the code used to analyze data, answer project questions, and make visualizations for part 1 of this challenge.
 - VacationPy.ipynb - contains all the code used to analyze data, answer project questions, and make visualizations for part 2 of this challenge.
