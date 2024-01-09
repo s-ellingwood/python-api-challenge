@@ -1,7 +1,19 @@
-# python-api-challenge
+# Python API Challenge
 
-The WeatherPy folder contains two Jupyter Notebooks.
+## Project Background
 
-The first one, WeatherPy.ipynb, contains the code used to make scatter plots and linear regression scatter plots for Latitude vs. Temperature, Humidity, Cloudiness, and Wind Speed. This file also saves a csv (cities.csv) that stored all of the information pulled from openweatherapi for the each city found for this dataset. cities.csv is saved into the folder wp_output_data. The folder wp_output_data also contains four images generated in WeatherPy.ipynb from the four scatter plot visualizations created.
+### **Background**
+Use Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 
-The second Jupyter Notebook, VacationPy.ipynb, contains the code used to create an hvplot of every city in the cities.csv as well as a second hvplot of hotels based on shorter list of cities, filtered from cities.csv based on various criteria.
+For part 1, create a Python script to visualize the weather of over 500 cities of varying distances from the equator. Use the citipy Python library and the OpenWeatherMap API to create a representative model of weather across cities.
+
+For part 2, use weather data, the geoViews Python library, and the Geoapify API to plan future vacations and create map visualizations.
+
+### Data source:
+All used data in this project is provided by UNC Chapel Hill’s Data Analytics and Visualization Bootcamp.
+
+### Files:
+The WeatherPy folder contains all the files for this challenge project.
+- The wp_output_data folder contains images created in WeatherPy.ipynb of figures created to visualize weather data and trends (Fig1.png, Fig2.png, Fig3.png, Fig4.png). It also contains the cities.csv file, also created in WeatherPy.ipynb, which contains all of the information pulled from openweatherapi for the each city found for this dataset.
+- WeatherPy.ipynb - contains all the code used to analyze data, answer project questions, and make visualizations for part 1 of this challenge.
+- VacationPy.ipynb - contains all the code used to analyze data, answer project questions, and make visualizations for part 2 of this challenge.
